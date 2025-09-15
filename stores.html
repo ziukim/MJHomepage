@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>여기 맛집 맛쥡? | 가게</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./styles/index.css"/>
+</head>
+<body>
+<div id="wrapper">
+  <header id="header" class="gb-1" role="banner">
+    <a href="index.html" class="brand" aria-label="여기 맛집 맛쥡? 홈">
+      <img src="./images/logo.PNG" alt="여기 맛집 맛쥡? 로고" width="44" height="44">
+      <span class="brand-text">여기 맛집 맛쥡?</span>
+    </a>
+    <form class="search" role="search" action="#" method="get">
+      <label for="q3" class="sr-only">검색어</label>
+      <input id="q3" name="q" type="search" placeholder="가게 검색">
+      <input type="button" aria-label="검색 버튼">
+    </form>
+    <div class="header-actions">
+      <a class="btn btn-ghost" href="#" role="button">로그인</a>
+    </div>
+  </header>
+
+  <nav id="nav" class="gb-1" aria-label="주요 메뉴">
+    <ul>
+      <li>
+        <a href="index.html">카테고리</a>
+        <ul>
+          <li><a href="#korean">한식</a></li>
+          <li><a href="#japanese">일식/돈까스</a></li>
+          <li><a href="#western">양식</a></li>
+          <li><a href="#chinese">중식</a></li>
+          <li><a href="#cafe">까페</a></li>
+          <li><a href="#pub">술집</a></li>
+        </ul>
+      </li>
+      <li><a href="events.html">이벤트</a></li>
+      <li><a href="stores.html" aria-current="page">가게</a></li>
+    </ul>
+  </nav>
+
+  <main id="main" role="main">
+    <section class="gb-1" aria-labelledby="table-title">
+      <h1 id="table-title" class="h-title">가게 표</h1>
+      <div class="table-wrap">
+        <table>
+          <caption class="sr-only">가게 정보를 표로 제공합니다</caption>
+          <thead>
+            <tr>
+              <th scope="col">가게명</th>
+              <th scope="col">카테고리</th>
+              <th scope="col">대표메뉴</th>
+              <th scope="col">위치</th>
+              <th scope="col">평점</th>
+              <th scope="col">영업시간</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="korean"><th scope="row">탑골순대국</th><td>한식</td><td>탑골순대국</td><td>판교</td><td>4.9</td><td>06:00~02:00</td></tr>
+            <tr id="japanese"><th scope="row">톤쇼유</th><td>일식/돈까스</td><td>버크셔K 로스카츠</td><td>광안리</td><td>5.0</td><td>11:00~20:00</td></tr>
+            <tr id="western"><th scope="row">노이</th><td>양식</td><td>감베로니</td><td>이태원</td><td>4.5</td><td>16:00~23:00</td></tr>
+            <tr id="chinese"><th scope="row">호접몽</th><td>중식</td><td>유린기</td><td>강남</td><td>4.8</td><td>12:00~24:00</td></tr>
+            <tr id="cafe"><th scope="row">트키</th><td>까페</td><td>말차치즈케이크</td><td>강남</td><td>4.4</td><td>11:00~22:00</td></tr>
+            <tr id="pub"><th scope="row">주신당</th><td>술집</td><td>감자전</td><td>강남</td><td>4.0</td><td>17:00~04:00</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="gb-1" role="contentinfo">
+    <div id="footer-1">
+      <ul>
+        <li><span><a href="#" role="button">이용약관</a></span></li>
+        <li><span><a href="#" role="button">개인정보취급방침</a></span></li>
+        <li><span><a href="#" role="button">인재채용</a></span></li>
+        <li><a href="#contact" role="button">문의</a></li>
+      </ul>
+    </div>
+    <div id="footer-2">
+      <address>
+        <p>주소: 서울 강남구 테헤란로14길 6 남도빌딩 2층, 3층, 4층</p>
+        <p>Email: <a href="mailto:heremjmj@gmail.com">heremjmj@gmail.com</a> · Tel: <a href="tel:0284846262">02-8484-6262</a></p>
+      </address>
+      <p>Copyright © 2025 여기 맛집 맛쥡? All Rights Reserved</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
